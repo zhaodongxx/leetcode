@@ -4,6 +4,9 @@
  */
 public class Solution {
 
+    /**
+     * 中心扩散
+     */
     public String longestPalindrome(String s) {
         int len = s.length(), start = 0, end = 0;
         for (int i = 0; i < len; i++) {
